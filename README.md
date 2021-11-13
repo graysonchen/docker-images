@@ -3,8 +3,8 @@
 ## ruby 2.4.7
 
 ```
-docker build -t graysonchen/olympic-ruby:2.4.7 -f ./ruby/2.4.7/Dockerfile-olympic .
-docker push graysonchen/olympic-ruby:2.4.7
+docker build -t graysonchen/ruby:2.4.7-olympic -f ./ruby/2.4.7/Dockerfile-olympic .
+docker push graysonchen/ruby:2.4.7-olympic
 ```
 
 ## ruby 2.2.3

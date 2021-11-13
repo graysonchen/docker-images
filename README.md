@@ -1,5 +1,12 @@
 # docker-images
 
+## ruby 2.4.7
+
+```
+docker build -t graysonchen/olympic-ruby:2.4.7 -f ./ruby/2.4.7/Dockerfile-olympic .
+docker push graysonchen/olympic-ruby:2.4.7
+```
+
 ## ruby 2.2.3
 
 https://hub.docker.com/r/graysonchen/circleci-ruby/

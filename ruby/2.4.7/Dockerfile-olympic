@@ -1,0 +1,3 @@
+FROM ruby:2.4.7
+
+RUN apt-get update -qq && apt-get install -yq --no-install-recommends apt-utils && apt-get install -y build-essential libgmp3-dev mcrypt libmcrypt-dev nodejs

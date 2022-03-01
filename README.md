@@ -9,8 +9,8 @@ docker push graysonchen/node:14.18.0-angular-cli
 ## ruby 2.4.7
 
 ```
-docker build -t graysonchen/olympic-ruby:2.4.7 -f ./ruby/2.4.7/Dockerfile-olympic .
-docker push graysonchen/olympic-ruby:2.4.7
+docker build -t graysonchen/ruby:2.4.7-olympic -f ./ruby/2.4.7/Dockerfile-olympic .
+docker push graysonchen/ruby:2.4.7-olympic
 ```
 
 ## ruby 2.2.3
@@ -35,6 +35,14 @@ docker push graysonchen/circleci-ruby:2.2.5-jessie-custom
 
 ```
 
+## elasticsearch-analysis-ik
+
+### 7.17.0
+
+```
+docker build -t graysonchen/elasticsearch-analysis-ik:7.17.0 -f ./elasticsearch/elasticsearch-analysis-ik/7.17.0/Dockerfile .
+
+```
 
 Ref:
 

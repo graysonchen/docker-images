@@ -29,6 +29,14 @@ docker push graysonchen/circleci-ruby:2.2.5-jessie-custom
 
 ```
 
+## elasticsearch-analysis-ik
+
+### 7.17.0
+
+```
+docker build -t graysonchen/elasticsearch-analysis-ik:7.17.0 -f ./elasticsearch/elasticsearch-analysis-ik/7.17.0/Dockerfile .
+
+```
 
 Ref:
 
